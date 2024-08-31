@@ -1,1 +1,3 @@
-go mod init github.com/itsfarhan/Simple-go-app
+module github.com/itsfarhan/Simple-go-app
+
+go 1.20
