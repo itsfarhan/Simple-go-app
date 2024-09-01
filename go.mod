@@ -1,3 +1,3 @@
-module github.com/itsfarhan/Simple-go-app
+module go-web-app
 
-go 1.20
+go 1.23.0
