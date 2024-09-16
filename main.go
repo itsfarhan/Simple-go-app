@@ -31,7 +31,8 @@ func main() {
 	http.HandleFunc("/", homeHandler)       // Route for home page
 	http.HandleFunc("/about", aboutHandler) // Route for about page
 
-	log.Println("Server starting on :8080...")
+	// Corrected log message to reflect the correct port
+	log.Println("Server starting on :8081...")
 	err := http.ListenAndServe(":8081", nil)
 	if err != nil {
 		log.Fatal("Server failed to start:", err)
